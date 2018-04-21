@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { SeoPanelComponent } from './seo-panel/seo-panel.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SeoPanelComponent
   ],
   imports: [
     BrowserModule
